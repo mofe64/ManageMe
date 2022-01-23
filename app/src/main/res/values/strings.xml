@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AKing</string>
+    <string name="action_settings">Settings</string>
+    <!--Welcome strings-->
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="welcome_one">Welcome to ManageMe</string>
+    <string name="welcome_one_sub">What\'s going to happen tomorrow</string>
+    <string name="welcome_two">Work happens</string>
+    <string name="welcome_two_sub">Get notified when work happens</string>
+    <string name="welcome_three">Manage Tasks s</string>
+    <string name="welcome_three_sub">Create Tasks and Manage them</string>
+
+    <!-- Auth Strings -->
+    <string name="login_header">Welcome back</string>
+    <string name="login_sub">Sign in to continue</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="forgot_password_sub">Please enter your email to receive your password reset instructions</string>
+    <string name="forgot_password_btn_txt">Send Request</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="back_arrow">Go Back</string>
+
+    <!--Work list strings-->
+    <string name="filter_action">filter</string>
+
+    <!-- util -->
+    <string name="fab_desc">Add Item</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/bannerred.xml" value="0.24351851851851852" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/fab_gradient.xml" value="0.290625" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/mytask.xml" value="0.290625" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/tab_color.xml" value="0.290625" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/font/applicationfonts.xml" value="0.3046875" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout-v28/fragment_welcome_slide_one.xml" value="0.2717391304347826" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/content_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_day_task_list.xml" value="0.2604166666666667" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_login.xml" value="0.536" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_menu_view.xml" value="0.18795289855072464" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_month.xml" value="0.2604166666666667" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_month_task_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_profile.xml" value="0.18795289855072464" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_quick_view.xml" value="0.264" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_tasks.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_today.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome_slide_one.xml" value="0.2717391304347826" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome_slide_three.xml" value="0.2717391304347826" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome_slide_two.xml" value="0.1" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_work_list.xml" value="0.1" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/task_tile.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/test.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/menu/filter_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/menu/menu_main.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

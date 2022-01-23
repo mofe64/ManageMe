@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.nubari.aking.welcome.screens.WelcomeFragment"
+        android:label="welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.nubari.aking.auth.screens.LoginFragment"
+        android:label="login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_workList"
+            app:destination="@id/workList"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/workList"
+        android:name="com.nubari.aking.home.WorkList"
+        android:label="Work List"
+        tools:layout="@layout/fragment_work_list" />
+    <fragment
+        android:id="@+id/menuView"
+        android:name="com.nubari.aking.menu.MenuView"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu_view" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.nubari.aking.profile.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/quickView"
+        android:name="com.nubari.aking.quickview.QuickView"
+        android:label="Quick view"
+        tools:layout="@layout/fragment_quick_view" />
+</navigation>

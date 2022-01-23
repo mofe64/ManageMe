@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".welcome.screens.WelcomeSlideOne">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/undraw_events_2p66"
+        android:contentDescription="@null"/>
+
+    <androidx.legacy.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_one"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome_one_sub"
+        android:textFontWeight="700"
+        android:textSize="18sp"
+        tools:targetApi="p" />
+
+
+</LinearLayout>

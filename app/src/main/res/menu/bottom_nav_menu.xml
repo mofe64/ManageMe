@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/workList"
+        android:icon="@drawable/mytask"
+        android:title="My Task" />
+    <item
+        android:id="@+id/menuView"
+        android:icon="@drawable/menu"
+        android:title="Menu" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/quickView"
+        android:icon="@drawable/quick"
+        android:title="Quick View" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>
