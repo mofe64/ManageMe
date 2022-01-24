@@ -26,7 +26,7 @@ class AuthViewModel : ViewModel() {
                     _state.value = state.value?.copy(
                         isProcessing = true,
                     )
-                    delay(3000)
+                    delay(1000)
                     _state.value = state.value?.copy(
                         isProcessing = true,
                         isAuthenticated = true

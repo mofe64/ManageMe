@@ -40,6 +40,8 @@ class WorkList : Fragment() {
         val viewPager = binding.workListViewPager
         val tabLayout = binding.tabLayout
         viewPager.adapter = adapter
+        // disable view pager swiping because it affects swipe able layout reveal
+        viewPager.isUserInputEnabled = false
 
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             when (position) {

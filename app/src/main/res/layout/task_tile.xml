@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/task_swipe_layout"
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="80dp"
     app:dragEdge="right"
     app:mode="same_level">
 
     <!-- swipe layout-->
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/task_edit_btn"
             android:layout_width="56dp"
             android:layout_height="56dp"
+            android:layout_gravity="center"
             android:background="@android:color/transparent"
             android:contentDescription="Edit"
             android:src="@drawable/edit" />
 
         <View
             android:layout_width="1dp"
-            android:layout_height="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
             android:background="@android:color/darker_gray" />
 
         <ImageButton
             android:id="@+id/task_edit_delete"
             android:layout_width="56dp"
             android:layout_height="56dp"
+            android:layout_gravity="center"
             android:background="@android:color/transparent"
-            android:contentDescription="Delet"
+            android:contentDescription="Delete"
             android:src="@drawable/trash" />
     </LinearLayout>
 
     <!--Main layout-->
-    <androidx.cardview.widget.CardView
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/task_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:cardElevation="10dp">
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="3dp"
+        card_view:cardUseCompatPadding="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/task_container_layout"
@@ -51,16 +56,18 @@
             android:paddingStart="10dp"
             android:paddingEnd="0dp">
 
-            <RadioButton
-                android:id="@+id/task_check"
+            <CheckBox
+                android:id="@+id/task_completed"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:minWidth="0dp"
                 android:minHeight="0dp"
+                android:buttonTint="@color/carnation"
                 android:text="@null"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
             <LinearLayout
                 android:id="@+id/task_details"
@@ -69,10 +76,11 @@
                 android:orientation="vertical"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toRightOf="@id/task_check"
+                app:layout_constraintLeft_toRightOf="@id/task_completed"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
+                    android:id="@+id/task_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Go fishing with stephen"
@@ -81,6 +89,7 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/task_due_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="9:00AM"
@@ -89,7 +98,7 @@
             </LinearLayout>
 
             <View
-                android:id="@+id/view"
+                android:id="@+id/color_view"
                 android:layout_width="5dp"
                 android:layout_height="30dp"
                 android:background="@color/carnation"
@@ -104,3 +113,4 @@
 
 
 </com.chauthai.swipereveallayout.SwipeRevealLayout>
+

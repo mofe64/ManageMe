@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/bannerred.xml" value="0.24351851851851852" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/checked.xml" value="0.15989583333333332" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/custom_checkbox.xml" value="0.15989583333333332" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/fab_gradient.xml" value="0.290625" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/mytask.xml" value="0.290625" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/radio.xml" value="0.290625" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/tab_color.xml" value="0.290625" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/drawable/unchecked.xml" value="0.15989583333333332" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/font/applicationfonts.xml" value="0.3046875" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout-v28/fragment_welcome_slide_one.xml" value="0.2717391304347826" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -25,7 +29,7 @@
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome_slide_three.xml" value="0.2717391304347826" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_welcome_slide_two.xml" value="0.1" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/fragment_work_list.xml" value="0.1" />
-        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/task_tile.xml" value="0.27447916666666666" />
+        <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/task_tile.xml" value="0.1" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/layout/test.xml" value="0.27447916666666666" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/devStrawhat/Android/AKing/app/src/main/res/menu/filter_menu.xml" value="0.27447916666666666" />
