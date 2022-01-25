@@ -5,7 +5,7 @@
     android:id="@+id/welcome_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".welcome.screens.WelcomeFragment">
+    tools:context=".presentation.welcome.screens.WelcomeFragment">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/welcomeViewPager"

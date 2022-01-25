@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.nubari.aking.welcome.screens.WelcomeFragment"
+        android:name="com.nubari.aking.presentation.welcome.screens.WelcomeFragment"
         android:label="welcome"
         tools:layout="@layout/fragment_welcome">
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.nubari.aking.auth.screens.LoginFragment"
+        android:name="com.nubari.aking.presentation.auth.screens.LoginFragment"
         android:label="login"
         tools:layout="@layout/fragment_login">
         <action
@@ -28,22 +28,22 @@
     </fragment>
     <fragment
         android:id="@+id/workList"
-        android:name="com.nubari.aking.home.WorkList"
+        android:name="com.nubari.aking.presentation.home.WorkList"
         android:label="Work List"
         tools:layout="@layout/fragment_work_list" />
     <fragment
         android:id="@+id/menuView"
-        android:name="com.nubari.aking.menu.MenuView"
+        android:name="com.nubari.aking.presentation.menu.MenuView"
         android:label="Menu"
         tools:layout="@layout/fragment_menu_view" />
     <fragment
         android:id="@+id/profile"
-        android:name="com.nubari.aking.profile.Profile"
+        android:name="com.nubari.aking.presentation.profile.Profile"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/quickView"
-        android:name="com.nubari.aking.quickview.QuickView"
+        android:name="com.nubari.aking.presentation.quickview.QuickView"
         android:label="Quick view"
         tools:layout="@layout/fragment_quick_view" />
 </navigation>

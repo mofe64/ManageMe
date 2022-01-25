@@ -1,12 +1,19 @@
 package com.nubari.aking.data.model
 
-import java.time.LocalDateTime
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import java.util.*
 
+@Entity
 data class Task(
-    val id: String = UUID.randomUUID().toString(),
+    @PrimaryKey val id: String = UUID.randomUUID().toString(),
+    @ColumnInfo(name = "title")
     val title: String,
+    @ColumnInfo(name = "description")
     val description: String,
+    @ColumnInfo(name = "completed")
     var completed: Boolean,
-    val dueDate: String
+    @ColumnInfo(name = "due_date", defaultValue = "(strftime('%s', 'now', 'localtime'))")
+    val dueDate: Date? = null
 )

@@ -9,7 +9,7 @@
     android:paddingStart="32dp"
     android:paddingEnd="32dp"
     android:paddingBottom="@dimen/fragment_vertical_margin"
-    tools:context=".auth.screens.LoginFragment">
+    tools:context=".presentation.auth.screens.LoginFragment">
 
     <ImageButton
         android:id="@+id/back_arrow_btn"
