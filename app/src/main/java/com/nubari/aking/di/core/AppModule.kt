@@ -5,9 +5,7 @@ import androidx.room.Room
 import com.nubari.aking.data.datasource.Database
 import com.nubari.aking.data.repository.TaskRepository
 import com.nubari.aking.data.repository.TaskRepositoryImpl
-import com.nubari.aking.domain.usecases.AddTask
-import com.nubari.aking.domain.usecases.GetTasks
-import com.nubari.aking.domain.usecases.TaskUseCases
+import com.nubari.aking.domain.usecases.*
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -39,7 +37,10 @@ object AppModule {
     fun provideTaskUseCases(repository: TaskRepository): TaskUseCases {
         return TaskUseCases(
             getTasks = GetTasks(repository),
-            addTask = AddTask(repository)
+            addTask = AddTask(repository),
+            deleteTask = DeleteTask(repository),
+            getTasksForToday = GetTasksForToday(repository),
+            getTasksForMonth = GetTasksForMonth(repository)
         )
     }
 
