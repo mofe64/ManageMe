@@ -23,7 +23,7 @@ interface TaskDao {
     suspend fun delete(task: Task)
 
     @Query("select * from task where id =:id")
-    suspend fun getTask(id: String)
+    suspend fun getTask(id: String): Task?
 
     @Query("select * from task where due_date =:date")
     fun getTaskByDate(date: Date): Flow<List<Task>>

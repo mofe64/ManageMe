@@ -34,7 +34,7 @@ class TaskListAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding: TaskTileBinding = TaskTileBinding.inflate(
-            LayoutInflater.from(fragment.context),
+            LayoutInflater.from(parent.context),
             parent,
             false
         )

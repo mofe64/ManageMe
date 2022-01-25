@@ -21,11 +21,15 @@
     <string name="password_label">Password</string>
     <string name="back_arrow">Go Back</string>
 
+    <string name="no_tasks_text">No Tasks for this period consider creating some</string>
+
+
     <!--Work list strings-->
     <string name="filter_action">filter</string>
 
     <!-- util -->
     <string name="fab_desc">Add Item</string>
+    <string name="tab_layout_desc">Tabs</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

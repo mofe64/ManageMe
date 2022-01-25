@@ -28,7 +28,7 @@ class TaskRepositoryImpl(
         return taskDao.delete(task)
     }
 
-    override suspend fun getTaskById(id: String) {
+    override suspend fun getTaskById(id: String): Task? {
         return taskDao.getTask(id)
     }
 

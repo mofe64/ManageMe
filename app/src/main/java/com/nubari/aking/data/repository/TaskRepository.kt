@@ -10,7 +10,7 @@ interface TaskRepository {
     fun getUncompletedTasks(): Flow<List<Task>>
     suspend fun saveTask(task: Task)
     suspend fun deleteTask(task: Task)
-    suspend fun getTaskById(id: String)
+    suspend fun getTaskById(id: String): Task?
     fun getTaskByDate(date: Date): Flow<List<Task>>
     fun getTodayTasks(): Flow<List<Task>>
 

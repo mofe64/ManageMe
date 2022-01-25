@@ -26,7 +26,7 @@ class DayTaskViewModel @Inject constructor(
     private var getTaskJob: Job? = null
 
     init {
-        getTasks()
+        getTasksForToday()
     }
 
     fun createEvent(eventDay: DayTaskEvent) {
@@ -46,13 +46,13 @@ class DayTaskViewModel @Inject constructor(
                 }
             }
             is DayTaskEvent.GetTasksForToday -> {
-                getTasks()
+                getTasksForToday()
             }
 
         }
     }
 
-    private fun getTasks() {
+    private fun getTasksForToday() {
         //cancel old job if still running
         getTaskJob?.cancel()
         getTaskJob = taskUseCases.getTasksForToday()
