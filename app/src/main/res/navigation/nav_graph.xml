@@ -46,4 +46,22 @@
         android:name="com.nubari.aking.presentation.quickview.QuickView"
         android:label="Quick view"
         tools:layout="@layout/fragment_quick_view" />
+    <fragment
+        android:id="@+id/addEditTask"
+        android:name="com.nubari.aking.data.repository.AddEditTask"
+        android:label="fragment_add_edit_task"
+        tools:layout="@layout/fragment_add_edit_task" />
+
+    <dialog
+        android:id="@+id/primaryActionDialog"
+        android:name="com.nubari.aking.presentation.home.dialogs.PrimaryActionDialog"
+        android:label="PrimaryActionDialog">
+        <action
+            android:id="@+id/action_primaryActionDialog_to_addEditTask"
+            app:destination="@id/addEditTask" />
+    </dialog>
+    <action
+        android:id="@+id/action_global_primaryActionDialog"
+        app:destination="@id/primaryActionDialog" />
+
 </navigation>

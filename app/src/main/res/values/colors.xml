@@ -16,4 +16,5 @@
     <color name="cornflower_blue_color_on">#FF000000</color>
     <color name="eastern_blue">#FF292E4E</color>
     <color name="manatee">#FF8E8E93</color>
+    <color name="background_grey">#F7F7F7</color>
 </resources>

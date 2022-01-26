@@ -10,6 +10,7 @@ import android.view.View
 import androidx.navigation.ui.setupWithNavController
 import com.nubari.aking.R
 import com.nubari.aking.databinding.ActivityMainBinding
+import com.nubari.aking.presentation.home.dialogs.PrimaryActionDialog
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -48,6 +49,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         bottomNavBar.setupWithNavController(navController)
 
+
         navController.addOnDestinationChangedListener { _, destination, _ ->
             val screensToHideNavBarOn = listOf(
                 R.id.welcomeFragment,
@@ -64,6 +66,9 @@ class MainActivity : AppCompatActivity() {
                 bottomNavBar.visibility = View.VISIBLE
             }
         }
+        binding.fab.setOnClickListener {
+           showPrimaryDialog()
+        }
 
     }
 
@@ -72,6 +77,11 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
+    }
+
+    private fun showPrimaryDialog() {
+        val dialog: PrimaryActionDialog = PrimaryActionDialog.newInstance()
+        dialog.show(supportFragmentManager, "Primary Action Dialog")
     }
 
 }

@@ -42,5 +42,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="create_task">Create Task</string>
+    <string name="create_note">Create Note</string>
+    <string name="create_check_list">Create Check List</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
